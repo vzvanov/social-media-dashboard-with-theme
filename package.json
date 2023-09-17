@@ -2,7 +2,7 @@
   "name": "social-media-dashboard-with-theme-switcher-master",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vzvanov.githab.io/social-media-dashboard-with-theme-switcher",
+  "homepage": "https://vzvanov.githab.io/social-media-dashboard-with-theme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

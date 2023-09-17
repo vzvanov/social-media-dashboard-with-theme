@@ -5,6 +5,7 @@
   padding: 1.5rem 0.5rem 0.5rem 0.5rem;
   color: var(--text2-color);
   background-color: var(--bg-color);
+  transition: background-color 1s;
 }
 
 .footer a {
