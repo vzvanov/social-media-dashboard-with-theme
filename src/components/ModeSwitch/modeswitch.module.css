@@ -1,0 +1,59 @@
+.modeswitch {
+  margin-top: 1.45rem;
+  letter-spacing: 0.01rem;
+  font-weight: var(--fw-bold);
+  color: var(--text1-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.modeswitch::before {
+  content: '';
+  height: 2px;
+  background-color: var(--text1-color);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.mode {
+  margin: 1.3rem 0 0 0;
+}
+
+/* ------------------------------------------------ */
+
+/* Mobile First Design */
+/* Media Queries */
+
+/* Small */
+@media (min-width: 576px) {
+
+  .modeswitch {
+    justify-content: center;
+    margin: 1.2rem 0.2rem 0 0;
+  }
+
+  .mode {
+    font-size: 0.77rem;
+    margin: 0 0.5rem 0 0;
+  }
+
+  .modeswitch::before {
+    display: none;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) {}
+
+/*Large*/
+@media (min-width: 992px) {}
+
+/*Extra large*/
+@media (min-width: 1200px) {}
+
+/*Extra extra large*/
+@media (min-width: 1400px) {}

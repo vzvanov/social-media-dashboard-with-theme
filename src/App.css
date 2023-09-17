@@ -1,0 +1,59 @@
+.wrapper {
+  overflow: hidden;
+  min-height: 100vh;
+  animation-name: wrapper;
+  animation-duration: 2s;
+  margin: 0 auto;
+}
+
+.content {
+  width: 1300px;
+}
+
+@keyframes wrapper {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.App {
+  background-color: var(--bg-color);
+  transition: background-color 1s;
+}
+
+.overview-title {
+  margin: -4.5rem 0 0 2.5rem;
+  font-size: 1.71rem;
+  color: var(--text2-color);
+}
+
+/* ------------------------------------------------ */
+
+/* Mobile First Design */
+/* Media Queries */
+
+/* Small */
+@media (min-width: 576px) {
+
+  .overview-title {
+    margin: -3.5rem 18rem 0 18rem;
+    font-size: 1.25rem;
+    color: var(--text2-color);
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) {}
+
+/*Large*/
+@media (min-width: 992px) {}
+
+/*Extra large*/
+@media (min-width: 1200px) {}
+
+/*Extra extra large*/
+@media (min-width: 1400px) {}

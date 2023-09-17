@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+
+  /* Font */
+  --ff: 'Inter', sans-serif;
+  --fs: 14px;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* Colors */
+  /* Primary */
+  --lime-green-color: hsl(163, 72%, 41%);
+  --bright-red-color: hsl(356, 69%, 56%);
+
+  --facebook-color: hsl(208, 92%, 53%);
+  --twitter-color: hsl(203, 89%, 53%);
+  --instagram-gradient: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  --youTube-color: hsl(348, 97%, 39%);
+
+}
+
+:root[color-mode="light"] {
+
+  /* Light Theme */
+
+  --toggle-bg-color: hsl(230, 22%, 74%);
+
+  /* (BG) */
+  --bg-color: hsl(0, 0%, 100%);
+  /*(Top BG Pattern)*/
+  --top-bg-color: hsl(225, 100%, 98%);
+  /*(Card BG)*/
+  --card-bg-color: hsl(227, 47%, 96%);
+  --card-bg-hover-color: rgb(225, 227, 240);
+  /*(Text)*/
+  --text1-color: hsl(228, 12%, 44%);
+  /*(Text)*/
+  --text2-color: hsl(230, 17%, 14%);
+
+  --border-radius: 0 0 2rem 2rem;
+  --link-color: blue;
+
+}
+
+:root[color-mode="dark"] {
+
+  /* Dark Theme */
+
+  --toggle-bg-color: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+
+  /* (BG) */
+  --bg-color: hsl(230, 17%, 14%);
+  /*(Top BG Pattern)*/
+  --top-bg-color: hsl(232, 19%, 15%);
+  /*(Card BG)*/
+  --card-bg-color: hsl(228, 28%, 20%);
+  --card-bg-hover-color: rgb(51, 58, 86);
+  /*(Text)*/
+  --text1-color: hsl(228, 34%, 66%);
+  /*(Text)*/
+  --text2-color: hsl(0, 0%, 100%);
+
+  --border-radius: 0;
+  --link-color: red
+}
+
+/* ------------------------------------------------ */
+
+/* Reset CSS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* ------------------------------------------------ */
+
+html {
+  font-size: var(--fs);
+  font-weight: var(--fw-regular);
+}
+
+body {
+  font-family: var(--ff);
+}

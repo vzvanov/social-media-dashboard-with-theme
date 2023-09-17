@@ -1,0 +1,33 @@
+.summary {
+  position: relative;
+  top: -7.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+/* ------------------------------------------------ */
+
+/* Mobile First Design */
+/* Media Queries */
+
+/* Small */
+@media (min-width: 576px) {
+
+  .summary {
+    top: -5rem;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) {}
+
+/*Large*/
+@media (min-width: 992px) {}
+
+/*Extra large*/
+@media (min-width: 1200px) {}
+
+/*Extra extra large*/
+@media (min-width: 1400px) {}

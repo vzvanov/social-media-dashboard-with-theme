@@ -1,0 +1,12 @@
+.footer {
+  font-size: 0.7rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+  color: var(--text2-color);
+  background-color: var(--bg-color);
+}
+
+.footer a {
+  color: var(--link-color);
+}

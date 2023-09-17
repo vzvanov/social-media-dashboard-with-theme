@@ -1,0 +1,39 @@
+.image {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 10;
+}
+
+.btn {
+  display: block;
+  max-width: 3rem;
+  z-index: 10;
+}
+
+/* Mobile First Design */
+/* Media Queries */
+
+/* Small */
+@media (min-width: 576px) {}
+
+/* Medium */
+@media (min-width: 768px) {}
+
+/*Large*/
+@media (min-width: 992px) {}
+
+/*Extra large*/
+@media (min-width: 1200px) {}
+
+/*Extra extra large*/
+@media (min-width: 1400px) {}

@@ -1,0 +1,68 @@
+.header {
+  background-color: var(--top-bg-color);
+  height: 17rem;
+  border-radius: var(--border-radius);
+  transition: background-color 1s;
+}
+
+.wrapper {
+  margin: 0 1.7rem;
+}
+
+.h1 {
+  margin-top: 2.25rem;
+  font-size: 1.71rem;
+  letter-spacing: 0.01rem;
+  color: var(--text2-color);
+  transition: color 5s;
+}
+
+.info {
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+  font-weight: var(--fw-bold);
+  color: var(--text1-color);
+}
+
+/* ------------------------------------------------ */
+
+/* Mobile First Design */
+/* Media Queries */
+
+/* Small */
+@media (min-width: 576px) {
+
+  .header {
+    height: 10rem;
+    border-radius: 0;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 18rem;
+  }
+
+  .h1 {
+    margin: 1.5rem 0 0 0;
+    font-size: 1.42rem;
+    letter-spacing: 0;
+  }
+
+  .info {
+    font-size: 0.73rem;
+    letter-spacing: 0;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) {}
+
+/*Large*/
+@media (min-width: 992px) {}
+
+/*Extra large*/
+@media (min-width: 1200px) {}
+
+/*Extra extra large*/
+@media (min-width: 1400px) {}
